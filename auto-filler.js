@@ -44,7 +44,7 @@ function start(generalElementId) {
     if (generalElementId) {
         generalElement = document.getElementById(generalElementId);
     } else {
-        generalElement = document.getElementById("application_form");
+        generalElement = document.getElementsByTagName("html")[0];
     }
 
     console.log(generalElement);
